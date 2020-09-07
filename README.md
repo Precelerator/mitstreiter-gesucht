@@ -2,18 +2,13 @@
 
 > Landing Page für eine mögliche Plattform zum Finden von Mitstreitern für Projektideen.
 
-# Static export example
+## Tech Stack
+Hosting: (Vercel)[https://vercel.com/]
+Design: (Bootstrap 5)[https://v5.getbootstrap.com/]
+Framework: (Next.js)[https://nextjs.org/]
+CMS: Google (Sheets)[https://www.google.de/intl/de/sheets/about/]
+Formulare: (Google Forms)[https://www.google.de/intl/de/forms/about/]
 
-This example show how to export to static HTML files your Next.js application fetching data from an API to generate a dynamic list of pages.
+## Run it yourself
 
-When trying to run `npm start` it will build and export your pages into the `out` folder and serve them on `localhost:5000`.
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-static-export with-static-export-app
-# or
-yarn create next-app --example with-static-export with-static-export-app
-```
+Klone das GitHub Repo, führe "npm install" aus, starte das Projekt mit "npm run dev". Auf http://localhost:3000 sollte der lokale Applikationsserver starten.
