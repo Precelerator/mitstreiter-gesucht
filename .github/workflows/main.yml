@@ -21,5 +21,5 @@ jobs:
       - name: Deploy Stage
         uses: fjogeleit/http-request-action@master
         with:
-            url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+            url: 'https://api.vercel.com/v1/integrations/deploy/QmNmEfWgDesC382a9Yab9EzQyj4Vt15ReUk5UmFtB972Lh/iBqmQdjpFN'
             method: 'POST'
